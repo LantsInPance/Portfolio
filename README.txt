@@ -1,1 +1,1 @@
-My portfolio
+This is a simple portfolio showcasing a few of my projects. You can view the portfolio here: https://lantsinpance.github.io/Portfolio/
