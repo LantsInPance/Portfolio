@@ -4,9 +4,7 @@ const video = document.querySelector('video');
 // 2. Define the observer
 let observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      video.play();
-    } else {
+    if (!entry.isIntersecting) {
       video.pause();
     }
   });
